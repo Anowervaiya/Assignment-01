@@ -1,0 +1,82 @@
+body {
+    font-family: 'Inter Tight', sans-serif;
+    font-family: 'Merriweather', serif;
+}
+
+header {
+
+    margin: 50px 140px;
+    background-image: url('../images/Banner\ Image.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1320px;
+    height: 600px;
+
+}
+
+
+.banner {
+
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    padding: 170px;
+
+
+
+
+
+
+
+}
+
+.happy-new-year {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Merriweather';
+}
+
+.happy-new-year-heading {
+    color: #FFF;
+    text-align: center;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+
+}
+
+
+/* off section  */
+
+
+main{margin-top:120px ;}
+
+.sixtifive {
+    color: #F00;
+    text-align: center;
+    font-family: 'inter Tight';
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.off-desc {
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+  
+}
+
+.off-categories {
+    color: #070211;
+    text-align: center;
+    font-family: Inter Tight;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+.happy-img{display: block; margin:0 auto;}
