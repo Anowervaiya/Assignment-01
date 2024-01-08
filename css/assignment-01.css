@@ -5,7 +5,7 @@ body {
 
 header {
 
-    margin: 50px 140px;
+    margin: 50px 100px;
     background-image: url('../images/Banner\ Image.png');
     background-size: contain;
     background-repeat: no-repeat;
@@ -20,14 +20,7 @@ header {
 
     border-radius: 16px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
-    padding: 170px;
-
-
-
-
-
-
-
+    padding: 170px 0 130px;
 }
 
 .happy-new-year {
@@ -47,11 +40,12 @@ header {
 
 }
 
-
 /* off section  */
 
 
-main{margin-top:120px ;}
+main {
+    /* margin-top: 120px; */
+}
 
 .sixtifive {
     color: #F00;
@@ -67,7 +61,7 @@ main{margin-top:120px ;}
     text-align: center;
     font-size: 24px;
     font-weight: 500;
-  
+
 }
 
 .off-categories {
@@ -79,4 +73,172 @@ main{margin-top:120px ;}
     margin-top: 0;
 }
 
-.happy-img{display: block; margin:0 auto;}
+.happy-img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* welcome section  */
+
+
+.welcome-section {
+    margin: 120px 100px;
+    background-image: url('../images/Vectorrr.png');
+    background-repeat: no-repeat;
+
+    width: 1320px;
+    height: 600px;
+    background-position-x: center;
+    background-size: contain;
+}
+
+.welcome-div {
+    display: flex;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    border-radius: 16px;
+
+}
+
+.welcome-text {
+    padding: 125px 95px 85px 126px;
+
+}
+
+.welcome-text h2 {
+    color: #FFF;
+    font-family: 'Merriweather';
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+}
+
+.welcome-text p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.welcome-text button {
+    color: #FFF;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: rgb(25, 25, 37);
+    border: none;
+
+}
+
+.welcome-image {
+    padding: 60px 135px 60px 0;
+}
+
+
+/* join section  */
+.join {
+    text-align: center;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    margin: 0 100px;
+    border-radius: 15px;
+    padding-top: 100px;
+    padding-bottom: 130px;
+}
+
+.join .red {
+
+    color: #FF0000;
+    font-size: 32px;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 56px;
+}
+
+.join .black {
+    color: #070211;
+    font-size: 32px;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+
+.join button {
+    border-radius: 8px;
+    background: #F00;
+    padding: 15px 30px;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+/* coming-soon  */
+
+
+
+.coming-soon {
+    display: flex;
+    margin: 130px 100px;
+    justify-content: space-evenly;
+}
+
+.coming-soon-text {margin-right: 70px;}
+
+
+.coming-soon-text h3 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.coming-soon-text h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.coming-soon-text p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.ellipse {
+    border-radius: 463px;
+    border: 15px solid #F00;
+}
+
+.ellipse img {
+    padding: 50px;
+}
+.coming-soon-desc{margin-left: 115px;}
+.coming-soon-desc h1 {
+    color: #F00;
+    font-family: sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.coming-soon-desc p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
