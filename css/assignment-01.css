@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Inter Tight', sans-serif;
     font-family: 'Merriweather', serif;
@@ -193,7 +198,9 @@ main {
     justify-content: space-evenly;
 }
 
-.coming-soon-text {margin-right: 70px;}
+.coming-soon-text {
+    margin-right: 70px;
+}
 
 
 .coming-soon-text h3 {
@@ -227,7 +234,11 @@ main {
 .ellipse img {
     padding: 50px;
 }
-.coming-soon-desc{margin-left: 115px;}
+
+.coming-soon-desc {
+    margin-left: 115px;
+}
+
 .coming-soon-desc h1 {
     color: #F00;
     font-family: sans-serif;
@@ -241,4 +252,159 @@ main {
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
+}
+
+
+/* Holidays section  */
+.holidays {
+
+    margin: 130px 100px;
+}
+
+.holidays-text {
+    text-align: center;
+}
+
+.first-p {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.holidays-text h1 {
+    color: #F00;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+
+.second-p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 65px;
+
+}
+
+.holidays-images {
+    background-image: url('../images/Rectangle\ 1.png'), url('../images/Rectangle\ 2.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: right top, bottom;
+
+    position: relative;
+
+}
+
+
+
+.discount {
+    padding: 140px;
+    position: absolute;
+    right: 90px;
+    bottom: 70px;
+}
+
+/* rectangle section  */
+.rectangle {
+    margin: 0 100px;
+}
+
+.best-gift {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.portfolio {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+
+.rec-desc {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 40px;
+}
+
+
+.first-rec,
+.second-rec {
+    display: flex;
+    gap: 10px;
+}
+
+.first-rec {
+    margin-bottom: 10px;
+}
+
+
+/* subscribe section  */
+
+.subscribe {
+    margin: 120px 100px;
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.message {
+    margin-bottom: 40px;
+}
+
+.sub-news {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+
+.sub-desc {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 50px;
+}
+
+.gmail-btn {
+    display: flex;
+    justify-content: center;
+    padding-bottom:80px;
+}
+
+.gmail {
+    padding: 23px;
+    border-radius: 50px 0 0 50px;
+    width: 300px;
+
+}
+
+.sub-btn {
+    padding: 20px;
+    border-radius: 0 50px 50px 0;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.gmail,
+.sub-btn {
+    border: none;
 }
