@@ -294,7 +294,6 @@ header {
     font-family: sans-serif;
     font-size: 72px;
     font-weight: 900;
-    margin-bottom: 25px;
 }
 
 .second-p {
@@ -304,7 +303,8 @@ header {
     font-size: 20px;
     font-weight: 500;
     line-height: 32px;
-    margin-bottom: 65px;
+    width: 900px;
+    margin: 25px auto 65px ;
 
 }
 
