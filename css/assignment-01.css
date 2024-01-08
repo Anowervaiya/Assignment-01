@@ -8,6 +8,9 @@ body {
     font-family: 'Merriweather', serif;
 }
 
+
+                           /* header part start from here  */
+
 header {
 
     margin: 50px 100px;
@@ -45,12 +48,17 @@ header {
 
 }
 
-/* off section  */
+                    /* header part end here  */
 
 
-main {
-    /* margin-top: 120px; */
-}
+
+
+                   /* main part start from here */
+
+
+
+/* 60% off section  */
+
 
 .sixtifive {
     color: #F00;
@@ -93,7 +101,6 @@ main {
     margin: 120px 100px;
     background-image: url('../images/Vectorrr.png');
     background-repeat: no-repeat;
-
     width: 1320px;
     height: 600px;
     background-position-x: center;
@@ -104,11 +111,11 @@ main {
     display: flex;
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     border-radius: 16px;
-
+    height: 600px;
 }
 
 .welcome-text {
-    padding: 125px 95px 85px 126px;
+    padding: 125px 95px 86px 126px;
 
 }
 
@@ -147,6 +154,9 @@ main {
 
 
 /* join section  */
+
+
+
 .join {
     text-align: center;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
@@ -157,7 +167,6 @@ main {
 }
 
 .join .red {
-
     color: #FF0000;
     font-size: 32px;
     font-family: sans-serif;
@@ -188,7 +197,7 @@ main {
 }
 
 
-/* coming-soon  */
+/* coming-soon  section */
 
 
 
@@ -226,6 +235,9 @@ main {
     line-height: 32px;
 }
 
+
+/* ellipse section  */
+
 .ellipse {
     border-radius: 463px;
     border: 15px solid #F00;
@@ -256,6 +268,9 @@ main {
 
 
 /* Holidays section  */
+
+
+
 .holidays {
 
     margin: 130px 100px;
@@ -297,9 +312,7 @@ main {
     background-image: url('../images/Rectangle\ 1.png'), url('../images/Rectangle\ 2.png');
     background-repeat: no-repeat, no-repeat;
     background-position: right top, bottom;
-
     position: relative;
-
 }
 
 
@@ -312,6 +325,8 @@ main {
 }
 
 /* rectangle section  */
+
+
 .rectangle {
     margin: 0 100px;
 }
@@ -383,7 +398,7 @@ main {
 .gmail-btn {
     display: flex;
     justify-content: center;
-    padding-bottom:80px;
+    padding-bottom: 80px;
 }
 
 .gmail {
@@ -408,3 +423,83 @@ main {
 .sub-btn {
     border: none;
 }
+                            /* main part end here  */
+
+
+
+
+
+                            /* footer part start from here  */
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.first-div {
+    display: flex;
+    width: 1320px;
+    justify-content: space-between;
+}
+
+.big-building {
+    margin-left: 110px;
+    margin-right: 250px;
+    margin-top: 120px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    width: 250px;
+    height: 80px;
+}
+
+.number {
+    width: 230px;
+    height: 80px;
+    font-family: sans-serif;
+    margin-top: 110px;
+}
+
+.number img {
+    width: 19px;
+    height: 18px;
+}
+
+.social-media {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.social-media img {
+    width: 44px;
+    height: 44px;
+
+}
+
+.last-div {
+    width: 1320px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+
+
+}
+
+.last-div>p,
+.last-div>button {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 100px 110px;
+
+}
+
+.last-div>button {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+
+                            /* footer part end here  */
